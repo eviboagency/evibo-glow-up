@@ -45,7 +45,7 @@ const Hero = () => {
             </Button>
             <Button variant="outline-brand" size="lg" className="min-w-[200px]" asChild>
               <Link to="#about">
-                Learn More
+                Discover Our Approach
               </Link>
             </Button>
           </div>
