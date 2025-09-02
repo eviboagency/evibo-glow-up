@@ -50,24 +50,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
-            <div className="text-center p-6 rounded-lg bg-white/50 backdrop-blur-sm shadow-lg hover:shadow-brand transition-all duration-300">
-              <Users className="h-12 w-12 text-primary mx-auto mb-4" />
-              <div className="text-3xl font-bold text-foreground mb-2">500+</div>
-              <div className="text-muted-foreground">Influencers Network</div>
-            </div>
-            <div className="text-center p-6 rounded-lg bg-white/50 backdrop-blur-sm shadow-lg hover:shadow-green transition-all duration-300">
-              <TrendingUp className="h-12 w-12 text-secondary mx-auto mb-4" />
-              <div className="text-3xl font-bold text-foreground mb-2">95%</div>
-              <div className="text-muted-foreground">Campaign Success Rate</div>
-            </div>
-            <div className="text-center p-6 rounded-lg bg-white/50 backdrop-blur-sm shadow-lg hover:shadow-brand transition-all duration-300">
-              <Target className="h-12 w-12 text-primary mx-auto mb-4" />
-              <div className="text-3xl font-bold text-foreground mb-2">10M+</div>
-              <div className="text-muted-foreground">Total Reach</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

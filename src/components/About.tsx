@@ -4,8 +4,8 @@ const About = () => {
   const features = [
     {
       icon: CheckCircle,
-      title: "Proven Results",
-      description: "Track record of successful campaigns across multiple industries"
+      title: "Results-Driven Approach",
+      description: "Focused on delivering measurable outcomes for every campaign"
     },
     {
       icon: Award,
@@ -37,7 +37,7 @@ const About = () => {
               </span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              We are a leading influencer marketing agency that specializes in connecting brands 
+              We are a dedicated influencer marketing agency that specializes in connecting brands 
               with authentic voices to create meaningful engagement and drive real business results.
             </p>
 
@@ -68,22 +68,16 @@ const About = () => {
                   <Globe className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-2">
-                  Global Network
+                  Growing Network
                 </h3>
                 <p className="text-muted-foreground">
-                  Connected with influencers worldwide
+                  Building connections with influencers worldwide
                 </p>
               </div>
               
-              <div className="grid grid-cols-2 gap-4 text-center">
-                <div className="p-4 bg-primary/5 rounded-lg">
-                  <div className="text-2xl font-bold text-primary">50+</div>
-                  <div className="text-sm text-muted-foreground">Countries</div>
-                </div>
-                <div className="p-4 bg-secondary/5 rounded-lg">
-                  <div className="text-2xl font-bold text-secondary">25+</div>
-                  <div className="text-sm text-muted-foreground">Industries</div>
-                </div>
+              <div className="text-center p-4 bg-primary/5 rounded-lg">
+                <div className="text-lg font-semibold text-primary mb-2">Ready to Launch</div>
+                <div className="text-sm text-muted-foreground">Your brand's next big campaign</div>
               </div>
             </div>
             

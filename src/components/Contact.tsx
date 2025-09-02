@@ -80,8 +80,8 @@ const Contact = () => {
                   Start Your Campaign Today
                 </h3>
                 <p className="mb-6 opacity-90">
-                  Join hundreds of brands that have successfully grown their reach 
-                  through our influencer marketing expertise.
+                  Be among the first brands to grow your reach through our fresh 
+                  approach to influencer marketing.
                 </p>
                 
                 <div className="space-y-4">
