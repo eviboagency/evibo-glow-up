@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MessageSquare, ArrowRight } from "lucide-react";
+import { toast } from "@/hooks/use-toast";
 
 const Contact = () => {
   return (
@@ -88,6 +89,10 @@ const Contact = () => {
                     variant="secondary" 
                     size="lg" 
                     className="w-full bg-white text-primary hover:bg-white/90"
+                    onClick={() => toast({
+                      title: "Contact Us",
+                      description: "Email: contact@eviboagency.com",
+                    })}
                   >
                     Schedule a Consultation
                     <ArrowRight className="ml-2 h-5 w-5" />
